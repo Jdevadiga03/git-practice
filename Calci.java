@@ -18,7 +18,7 @@ System.out.println("Enter 2 numbers to find sum");
 int n1=s.nextInt();
 int n2=s.nextInt();
 CalciImpl c=new CalciImpl();
-int sum=c.getsum(n1,n2);
+int sum=c.getSum(n1,n2);
 System.out.println(n1+"+"+n2+"="+sum);
 }
 }
